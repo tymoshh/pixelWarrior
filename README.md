@@ -1,8 +1,7 @@
 # pixelWarrior
 fun retro pixel game
 
-diary :
-beta release : 23.07.2024
+beta released : 23.07.2024 
 
 if you wanna just play do this :
 go to /releases
