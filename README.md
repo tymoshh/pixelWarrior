@@ -2,4 +2,4 @@
 fun retro pixel game
 
 diary:
-planned release date : 01.09.2024
+beta release : 23.07.2024
