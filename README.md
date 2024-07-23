@@ -4,7 +4,6 @@ fun retro pixel game
 beta released : 23.07.2024 
 
 giant problem :
-music file is missing
 too much zombies dying
 
 if you wanna just play do this :
