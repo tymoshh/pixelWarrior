@@ -9,6 +9,7 @@ if you wanna just play do this :
 go to /releases
 download
 unzip
+run win-install.bat
 run pixelWarrior.exe
 play !
 
