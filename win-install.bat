@@ -3,19 +3,19 @@ setlocal enabledelayedexpansion
 
 
 echo PIXEL WARRIOR INSTALLER
-echo
+echo(
 pause
 
 
 
-echo downloading game executable
+rem downloading game executable
 
 curl https://raw.githubusercontent.com/tymoshh/pixelWarrior/main/pixelWarrior.exe -o pixelWarrior.exe
 echo
 
 
 
-echo creating and downloading res folder
+rem creating and downloading res folder
 mkdir res
 cd res
 
@@ -36,7 +36,7 @@ curl https://raw.githubusercontent.com/tymoshh/pixelWarrior/main/res/ThaleahFat.
 cd ..
 
 
-echo downloading sdl2 libraries which can give us the binaries
+rem downloading sdl2 libraries which can give us the binaries
 
 mkdir bins
 
@@ -83,5 +83,5 @@ rd /s /q bins
 
 cls
 echo INSTALLED!
-echo
+echo(
 pause
