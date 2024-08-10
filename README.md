@@ -3,8 +3,7 @@ fun retro pixel game
 
 beta released : 23.07.2024 
 
-giant problem :
-too much zombies dying
+v1 released : 10.08.2024
 
 if you wanna just play do this :
 go to /releases
