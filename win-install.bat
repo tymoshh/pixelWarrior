@@ -3,6 +3,8 @@ setlocal enabledelayedexpansion
 
 
 echo PIXEL WARRIOR INSTALLER
+echo
+pause
 
 
 
@@ -45,6 +47,7 @@ for /d %%i in (SDL2-*) do (
 )
 xcopy "!folderName!\x86_64-w64-mingw32\bin\SDL2.dll" "%cd%\bins\" /e
 rd /s /q "!folderName!"
+del SDL2.tar.gz
 
 curl -L -o SDL2_image.tar.gz https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.2/SDL2_image-devel-2.8.2-mingw.tar.gz
 tar -xvzf SDL2_image.tar.gz
@@ -53,6 +56,7 @@ for /d %%i in (SDL2-*) do (
 )
 xcopy "!folderName!\x86_64-w64-mingw32\bin\SDL2_image.dll" "%cd%\bins\" /e
 rd /s /q "!folderName!"
+del SDL2_image.tar.gz
 
 curl -L -o SDL2_mixer.tar.gz https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.8.0/SDL2_mixer-devel-2.8.0-mingw.tar.gz
 tar -xvzf SDL2_mixer.tar.gz
@@ -61,6 +65,7 @@ for /d %%i in (SDL2-*) do (
 )
 xcopy "!folderName!\x86_64-w64-mingw32\bin\SDL2_mixer.dll" "%cd%\bins\" /e
 rd /s /q "!folderName!"
+del SDL2_mixer.tar.gz
 
 curl -L -o SDL2_ttf.tar.gz https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.22.0/SDL2_ttf-devel-2.22.0-mingw.tar.gz
 tar -xvzf SDL2_ttf.tar.gz
@@ -69,6 +74,7 @@ for /d %%i in (SDL2-*) do (
 )
 xcopy "!folderName!\x86_64-w64-mingw32\bin\SDL2_ttf.dll" "%cd%\bins\" /e
 rd /s /q "!folderName!"
+del SDL2_ttf.tar.gz
 
 xcopy "bins\*" . /s /i /y
 rd /s /q bins
